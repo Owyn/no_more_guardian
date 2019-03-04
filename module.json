@@ -1,0 +1,12 @@
+{
+	"disableAutoUpdate": false,
+	"name": "no_more_guardian",
+	"author": "Owyn",
+	"description": "Disables guardian auto-optimization along with its UI",
+	"options": {
+		"niceName": "no more Guardian",
+		"guiName": "no more Guardian"
+	},
+	"servers": ["https://raw.githubusercontent.com/Owyn/no_more_guardian/master/"],
+	"supportUrl": "https://github.com/Owyn/no_more_guardian/issues"
+}

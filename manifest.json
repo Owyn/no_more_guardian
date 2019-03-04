@@ -1,0 +1,12 @@
+{
+	"files": {
+		"index.js": "4084797c84432439d4b954777b0106a78f625860e8c0b4921cbfa2073c0670c0",
+		"module.json": "4177c3911cba88f7c224cbc0620e556865c715c64c1741008bccd6b009134e6c"
+	},
+	"defs": {
+		"C_RETURN_TO_LOBBY": "raw",
+		"S_CHAT": 2,
+		"S_FIELD_EVENT_ON_ENTER": "raw",
+		"S_FIELD_POINT_INFO": 2
+	}
+}
