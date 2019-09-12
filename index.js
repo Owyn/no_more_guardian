@@ -16,10 +16,10 @@ module.exports = function no_guardian(d)
 	d.hook('S_FIELD_POINT_INFO', 2, (event) => {       
 		if(entered && event.cleared != clr && event.cleared - 1 > event.claimed) // entered GM, updated progress, unclaimed rewards
 		{
-			d.toClient('S_CHAT', 2, {
+			d.toClient('S_CHAT', 3, {
 			channel: 21,
 			gm: 1,
-			authorName: 'Guardian Mission',
+			name: 'Guardian Mission',
 			message: String(event.cleared + " / 40")
 			});
 		}
